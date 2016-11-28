@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'mb';
+    src: url('montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mhl';
+    src: url('montserrat-hairline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ml';
+    src: url('montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,134 @@
+.trigger {
+	display: inline-block;
+	margin-bottom: 100px;
+}
+.trigger::after {
+	content: '';
+    clear: both;
+}
+.trigger:nth-child(2n) .trigger__image {
+	float: right;
+	width: 50%;
+}
+.trigger:nth-child(2n) .trigger__info {
+	float: left;
+	width: 50%;
+	padding: 0 99px 0 0;
+}
+.trigger:last-child {
+	margin-bottom: 0;
+}
+.trigger__image {
+	float: left;
+	width: 50%;
+}
+.trigger__info {
+	float: right;
+	width: 50%;
+	padding: 0 0 0 99px;
+}
+.trigger__title {
+	margin: 0;
+	padding: 0;
+	line-height: 48px;
+}
+.trigger__title--small {
+	font-family: 'ml';
+	font-size: 30px;
+	margin-top: -19px;
+}
+.trigger__title--big {
+	font-family: 'mb';
+	font-size: 48px;
+}
+.trigger__title--big::after {
+	content: '';
+	display: block;
+	width: 55px;
+	height: 2px;
+	background-color: #000;
+	margin: 25px 0;
+}
+.trigger__description {
+	font-family: 'ml';
+	font-size: 18px;
+	line-height: 27px;
+	color: #656565;
+	margin: 35px 0;
+}
+.trigger__button {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	width: 170px;
+	border: 1px solid #d8d8d8;
+	border-radius: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: 'ml';
+	font-size: 18px;
+	margin-top: 10px;
+}
+@media screen and (max-width: 1024px) {
+	.trigger:nth-child(2n) .trigger__image {
+		width: 45%;
+	}
+	.trigger:nth-child(2n) .trigger__info {
+		width: 55%;
+		padding: 0 5px 0 0;
+	}
+	.trigger__image {
+		width: 45%;
+	}
+	.trigger__info {
+		width: 55%;
+		padding: 0 0 0 5px;
+	}
+	.trigger__description {
+		margin: 15px 0;
+	}
+	.trigger__button {
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 890px) {
+	.trigger {
+		width: 33.3333%;
+		float: left;
+		padding: 0 7px;
+		margin-bottom: 14px;
+	}
+	.trigger:nth-child(2n) .trigger__image, .trigger:nth-child(2n) .trigger__info, .trigger__image,  .trigger__info{
+		float: none;
+		width: 100%;
+	}
+	.trigger__title {
+		text-align: center;
+	}
+	.trigger__title--big {
+		font-size: 36px;
+	}
+	.trigger__title--big::after {
+		margin: 10px auto;
+	}
+	.trigger__title--small {
+		margin-top: 10px;
+	}
+	.trigger__button {
+		line-height: 35px;
+		width: 130px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.trigger {
+		width: 50%;
+	}
+	.trigger__description {
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 540px) {
+	.trigger {
+		width: 100%;
+	}
+}

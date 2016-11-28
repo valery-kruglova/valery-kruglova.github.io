@@ -1,0 +1,111 @@
+.team {
+	width: 100%;
+	height: 708px;
+	background-color: #ffe1bd;
+}
+.team__image {
+	margin: 0 auto;
+}
+.team__item {
+	text-align: center;
+	margin: 0 45px;
+}
+.team__item:focus, .team__item:active {
+	outline: none;
+}
+.team__items .slick-list {
+	max-width: 895px;
+	margin: 0 auto;
+}
+.team__name {
+	margin: 20px 0 0;
+}
+.team__name.single-title::after {
+	margin: 12px auto 15px;
+}
+.team__description {
+	font-family: 'ml';
+	font-size: 18px;
+	margin: 0;	
+}
+.slick-arrow {
+	position: relative;
+}
+.slick-arrow.slick-prev::before, .slick-arrow.slick-prev::after, .slick-arrow.slick-next::before, .slick-arrow.slick-next::after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 3px;
+	height: 40px;
+	background-color: #000;	
+	left: 13px;
+}
+.slick-arrow.slick-prev:hover::before, .slick-arrow.slick-prev:hover::after, .slick-arrow.slick-next:hover::before, .slick-arrow.slick-next:hover::after {
+	background-color: #fff;
+}
+.slick-prev::before {
+	top: -100%;
+	margin-top: 50px;
+	transform: rotate(45deg);
+}
+.slick-prev::after {
+	transform: rotate(-45deg);
+	margin-top: -7px;
+}
+.slick-next::before {
+	top: -100%;
+	margin-top: 50px;
+	transform: rotate(-45deg);
+}
+.slick-next::after {
+	transform: rotate(45deg);
+	margin-top: -7px;
+}
+.slick-arrow.slick-prev, .slick-arrow.slick-next {
+	width: 30px;
+	height: 56px;
+}
+.slick-arrow.slick-prev{ 
+	top: 85px;
+	left: 0;
+}
+.slick-arrow.slick-next {
+	top: 85px;
+	right: 0;
+}
+.team .slick-dots {
+	width: initial;
+	height: initial;
+	bottom: -50px;
+	left: 50%;
+	margin-left: -40px;
+}
+.team .slick-dots li button::before {
+	content: '';
+	width: 13px;
+	height: 13px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	opacity: 1;
+}
+.team .slick-dots li.slick-active button::before, 
+.team .slick-dots li button:hover:before, .slick-dots li button:focus:before {
+	opacity: 1;
+	background-color: #000;
+}
+@media screen and (max-width: 926px) {
+	.team__items .slick-list {
+		max-width: 600px;
+	}
+	.team .slick-dots {
+		margin-left: -60px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.team {
+		max-height: 550px;
+	}
+	.team .slick-dots {
+		margin-left: -135px;
+	}
+}

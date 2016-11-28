@@ -1,0 +1,18 @@
+.logo {
+	float: left;
+}
+.logo__link {
+	text-decoration: none;
+	color: #000;
+	font-family: 'mb';
+	font-size: 30px;
+	line-height: 156px;
+}
+@media screen and (max-width: 665px) {
+	.logo {
+		float: none;
+	}
+	.logo__link {
+		line-height: 80px;
+	}
+}

@@ -1,0 +1,16 @@
+@import "normalize.css";
+@import "reset.css";
+@import "fonts/fonts.css";
+@import "blocks/main-components.css";
+@import "blocks/header.css";
+@import "blocks/logo.css";
+@import "blocks/nav.css";
+@import "blocks/slider.css";
+@import "blocks/about.css";
+@import "blocks/triggers.css";
+@import "blocks/trigger.css";
+@import "blocks/portfolio.css";
+@import "blocks/team.css";
+@import "blocks/comments.css";
+@import "blocks/contacts.css";
+@import "blocks/footer.css";

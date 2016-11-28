@@ -1,0 +1,15 @@
+.header {
+	max-width: 1177px;
+	min-height: 156px;
+	padding: 0 14px;
+	margin: 0 auto;
+}
+.header::after {
+	content: '';
+	clear: both;
+}
+@media screen and (max-width: 665px) {
+	.header {
+		text-align: center;
+	}
+}

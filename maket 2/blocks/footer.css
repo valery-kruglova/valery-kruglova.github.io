@@ -1,0 +1,17 @@
+.footer {
+	margin: 45px 0;
+}
+.copyright {
+	display: block;
+	line-height: 24px;
+	text-align: center;
+}
+.copyright-title {
+	font-family: 'mb';
+	font-size: 18px;
+}
+.copyright-description {
+	font-family: 'ml';
+	font-size: 14px;
+	color: #656565;
+}
