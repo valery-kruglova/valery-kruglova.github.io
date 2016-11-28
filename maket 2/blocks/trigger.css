@@ -69,6 +69,10 @@
 	font-size: 18px;
 	margin-top: 10px;
 }
+.trigger__button:hover {
+	color: #fff;
+	background-color: #000;
+}
 @media screen and (max-width: 1024px) {
 	.trigger:nth-child(2n) .trigger__image {
 		width: 45%;

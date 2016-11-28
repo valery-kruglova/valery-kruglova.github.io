@@ -17,6 +17,9 @@
 	font-size: 18px;
 	line-height: 24px;
 }
+.nav__link:hover {
+	color: #000;
+}
 @media screen and (max-width: 665px) {
 	.nav {
 		float: none;
