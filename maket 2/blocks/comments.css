@@ -49,8 +49,8 @@
 	margin: 65px 14px 0;
 }
 .comments .slick-dots {
-	width: initial;
-	height: initial;
+	width: auto;
+	height: auto;
 	bottom: -80px;
 	left: 50%;
 	margin-left: -40px;

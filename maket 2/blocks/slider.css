@@ -43,10 +43,11 @@
 .slider .slick-dots {
 	right: 0;
 	top: 50%;
-	width: initial;
-	height: initial;
+	width: auto;
+	height: auto;
 	margin-top: 30px;
 	margin-right: 20px;
+	-ms-margin-top: 0;
 }
 .slider .slick-dots li {
 	display: block;
