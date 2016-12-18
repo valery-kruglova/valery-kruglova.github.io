@@ -522,7 +522,7 @@ a.headerbtn:hover, .pinkbtn:hover, .expbtn:hover {
 		margin: 0 5px;
 	}
 	.about1-text, .about2-text {
-		width: 50%;
+		width: 45%;
 		margin-top: 0;
 		top: 10px;
 	}
@@ -533,7 +533,6 @@ a.headerbtn:hover, .pinkbtn:hover, .expbtn:hover {
 @media screen and (max-width: 1000px) {
 	.about1, .about2 {
 		width: 50%;
-		overflow: hidden;
 	}
 	.about1-text {
 		padding-left: 40px;
